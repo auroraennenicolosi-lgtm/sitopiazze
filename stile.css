@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+
+.navbar {
+  background: #0f5c2e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+
+.hero {
+  height: 400px;
+  background: url(piazzesicilia.jpg) center/cover no-repeat; 
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 60px;
+}
+
+
+.intro {
+  padding: 40px;
+}
+
+.intro p:not(.subtitle) {
+  margin-bottom: 10px;
+  color: #555;
+}
+.subtitle{
+    font-size: 28px;
+    line-height: 1.4;
+    font-weight: 600;
+    margin-bottom: 20px;
+    max-width: 600px;
+    color: #000;
+}
+
+
+.section {
+  padding: 40px;
+}
+
+.section h2 {
+  margin-bottom: 40px;
+  font-size: 36px;
+  text-align: center;
+  color: #222;
+  font-weight: 600;
+}
+
+
+.grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  background: #b8c5b6;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.card img {
+  height: 300px;
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+  
+
+.footer {
+  height: 60px;
+  background: #0f5c2e;
+  margin-top: 40px;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding: 15px;
+}
+
+
+.hero-detailcatania {
+  height: 60vh;
+  background: url("img/cataniacard.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+  color: white;
+}
+
+.hero-detail h1 {
+  font-size: 50px;
+}
+
+
+.divider {
+  border: none;
+  height: 3px;
+  background: #0f5c2e;
+  margin: 40px;
+}
+
+
+.info-grid {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 40px;
+  gap: 20px;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.image-section img {
+  width: 80%;
+  border-radius: 10px;
+}
+.hero-detailsiracusa {
+  height: 65vh;
+  background: url("img/siracusacard.jpg") center 60% /cover no-repeat;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+  color: white;
+}
+.hero-detailragusa {
+  height: 65vh;
+  background: url("img/ragusacard.jpg") center 60% /cover no-repeat;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+  color: white;
+}
+.hero-detailtrapani {
+  height: 65vh;
+  background: url("img/trapanicard.jpg") center 60% /cover no-repeat;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+  color: white;
+}
+.hero-detailpalermo {
+  height: 65vh;
+  background: url("img/Palermocard.jpg") center 60% /cover no-repeat;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+  color: white;
+}
+.hero-detailmessina {
+  height: 65vh;
+  background: url("img/messinacard.jpg") center 60% /cover no-repeat;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+  color: white;
+
+}
+.hero-detailenna {
+  height: 65vh;
+  background: url("img/Ennacard.jpg") center 60% /cover no-repeat;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+  color: white;
+}
+.hero-detailcaltanissetta {
+  height: 65vh;
+  background: url("img/caltanissettacardjpg.jpg") center 60% /cover no-repeat;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+  color: white;
+}
+.hero-detailagrigento {
+  height: 65vh;
+  background: url("img/agrigentocard.jpg") center 60% /cover no-repeat;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+  color: white;
+}
